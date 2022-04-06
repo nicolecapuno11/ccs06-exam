@@ -5,22 +5,22 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <title>begin</title>
+        <title>Begin</title>
     </head>
 <body>
     <div class="container-sm">
         <h1>ENTER STUDENT NAMES</h1>
         <form action = "/enter-grades" method = "POST">
         @csrf
-        @for ($a = 1; $a <= 5; $a++)
+        @for ($i = 1; $i <= 5; $i++)
             <div class="row">
-                <label>Student {{ $a }} Name: </label>
-                <input type = "text" name = "name_{{ $a }}" class = "form-control">
+                <label>Student {{ $i }} Name: </label>
+                <input type = "text" name = "name_{{ $i }}" class = "form-control">
             </div>
         @endfor
         <hr>
         <div class="row">
-            <button class="btn btn-primary btn-lg" ENTER STUDENTS>
+            <button class="btn btn-primary btn-lg"> ENTER STUDENTS </button>
         </div>
         </form>
     </div>

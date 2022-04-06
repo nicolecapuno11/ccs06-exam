@@ -18,33 +18,44 @@
                     <th scope="col">Midterm Grade</th>
                     <th scope="col">Final Grade</th>
                     <th scope="col">Average</th>
+                    <th scope="col">Remarks</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <td>{{ $student_1 }}</td>
                     <td>{{ $s1_midterm }}</td>
+                    <td>{{ $s1_final }}</td>
                     <td>{{ $s1_average }}</td>
+                    <td>{{ $s1_remarks }}</td>
                 </tr>
                 <tr>
                     <td>{{ $student_2 }}</td>
                     <td>{{ $s2_midterm }}</td>
+                    <td>{{ $s2_final }}</td>
                     <td>{{ $s2_average }}</td>
+                    <td>{{ $s2_remarks }}</td>
                 </tr>
                 <tr>
                     <td>{{ $student_3 }}</td>
                     <td>{{ $s3_midterm }}</td>
+                    <td>{{ $s3_final }}</td>
                     <td>{{ $s3_average }}</td>
+                    <td>{{ $s3_remarks }}</td>
                 </tr>
                 <tr>
                     <td>{{ $student_4 }}</td>
                     <td>{{ $s4_midterm }}</td>
+                    <td>{{ $s4_final }}</td>
                     <td>{{ $s4_average }}</td>
+                    <td>{{ $s4_remarks }}</td>
                 </tr>
                 <tr>
                     <td>{{ $student_5 }}</td>
                     <td>{{ $s5_midterm }}</td>
+                    <td>{{ $s5_final }}</td>
                     <td>{{ $s5_average }}</td>
+                    <td>{{ $s5_remarks }}</td>
                 </tr>
             </tbody>
         </table>
